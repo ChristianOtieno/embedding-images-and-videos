@@ -1,0 +1,12 @@
+.header-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+#menu-icon {
+  grid-column: 1/2;
+}
+#menu-icon img {
+  width: 20%;
+  height: 20%;
+}
